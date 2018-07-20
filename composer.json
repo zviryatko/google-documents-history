@@ -1,0 +1,27 @@
+{
+    "name": "zviryatko/google-doc-history",
+    "description": "Provide git history for external google document.",
+    "type": "project",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Alex Davyskib",
+            "email": "sanya.davyskiba@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "google/apiclient": "^2.0",
+        "lstrojny/functional-php": "^1.2@dev",
+        "symfony/console": "^4.2@dev",
+        "dnoegel/php-xdg-base-dir": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.3@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "zviryatko\\GDocHist\\": "src"
+        }
+    }
+}
