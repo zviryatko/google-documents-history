@@ -14,7 +14,10 @@
         "google/apiclient": "^2.0",
         "lstrojny/functional-php": "^1.2@dev",
         "symfony/console": "^4.2@dev",
-        "dnoegel/php-xdg-base-dir": "dev-master"
+        "dnoegel/php-xdg-base-dir": "dev-master",
+        "ext-json": "^1.5",
+        "league/html-to-markdown": "^4.8@dev",
+        "ezyang/htmlpurifier": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.3@dev"
